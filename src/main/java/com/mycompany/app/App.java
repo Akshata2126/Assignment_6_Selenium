@@ -17,8 +17,8 @@ public class App {
 	  public void Open_Browser()
 	  {
 		
-		//setting property for Chrome browser
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Manoj\\Desktop\\Akshata\\Study\\selenium\\chromedriver.exe");
+		//setting property for Chrome browser. Please specify location of chromedriver.exe file
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		//Open google in Chrome browser
 		driver.get("https://www.google.com");
